@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+
+<p>{{content}}</p>
+<nav>
+    <a style="border: 1px solid;" routerLink="/example">Example</a>
+    <a style="border: 1px solid;" [routerLink]="['/other','john']">Other</a>
+    <a style="border: 1px solid;" routerLink="/another">Another</a>
+</nav>
+<div style="border: 1px solid; margin: 10px">
+<router-outlet></router-outlet>
+<div>
